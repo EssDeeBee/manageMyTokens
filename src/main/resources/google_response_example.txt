@@ -1,0 +1,27 @@
+GET /Callback?code=4/AACH3XzC_b689D4UClda0IUFjwH-zzX2yG8Jb6_Y941ONIp89dac1bJnfhwj-UDmIjGYAr5WaOWr1rdlyR0Fhco HTTP/1.1
+Host: localhost:57456
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 OPR/52.0.2871.40
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+val uri = "https://accounts.google.com/o/oauth2/auth?client_id=1010277423834-br0pkjjh3r4tbmnrr78ge1mmbjgvm1ph.apps.googleusercontent.com&redirect_uri=http://$host:${connector.localPort}/Callback&response_type=code&scope=https://www.googleapis.com/auth/analytics"
+
+yandex:
+{
+    "token_type": "bearer",
+    "access_token": "AQAAAAAO6RGvAATxnLJs_dmaYkw7vr59DXab1II",
+    "expires_in": 31536000,
+    "refresh_token": "1:dMinexgpg-e-vBiZ:k8IymCTdchGhTUigT9lRsV6Xo5aR4HYFwZry3VuQMCiAfd7dpv7S:MV8MYHnGskzGIG5GE_nEvw"
+}
+
+Google:
+{
+    "access_token": "ya29.GlucBZr4h0UeXD53JMZFpNcvpXFxqGh88U0Y9O_y2Hxa-lTqJig6RX3fg9EnifKRJMg-n6OEoqc0E0AkSDgZwG2MyiNoy0jjd7UnDxP2Eujs239T_7nayQBROawp",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "1/KU9mH8hNrhO42gmTIPAwlWphV-j6kLHGuVk0VLzg93JBnU_T8ECuI4T7Zd0kNo4w"
+}
